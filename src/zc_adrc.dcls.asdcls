@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_ADRC'
+@MappingRole: true
+define role ZC_ADRC {
+  grant select on ZC_ADRC
+  where INHERITING CONDITIONS FROM ENTITY ZR_ADRC REPLACING { ROOT WITH _BaseEntity };
+}

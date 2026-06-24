@@ -1,0 +1,117 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Partner'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Partner'
+annotate view ZC_BUT000 with
+{
+  @EndUserText.label: 'Partner'
+  @UI.facet: [ {
+    label: 'Allgemeine Informationen', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Partner'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Partner'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Partner;
+  
+  @EndUserText.label: 'BpType'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'BpType'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'BpType'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  BpType;
+  
+  @EndUserText.label: 'Bpkind'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Bpkind'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Bpkind'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Bpkind;
+  
+  @EndUserText.label: 'BuGroup'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'BuGroup'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'BuGroup'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  BuGroup;
+  
+  @UI.identification: [ {
+    position: 50 
+  } ]
+  @UI.lineItem: [ {
+    position: 50 
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Createdby;
+  
+  @UI.identification: [ {
+    position: 60 
+  } ]
+  @UI.lineItem: [ {
+    position: 60 
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Changedby;
+  
+  @UI.identification: [ {
+    position: 70 
+  } ]
+  @UI.lineItem: [ {
+    position: 70 
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Lastchangedat;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 80 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  _BaseEntity;
+}

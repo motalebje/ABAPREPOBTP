@@ -1,0 +1,112 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Belnr'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Belnr'
+annotate view ZC_DBERCHZ1 with
+{
+  @EndUserText.label: 'Belnr'
+  @UI.facet: [ {
+    label: 'Allgemeine Informationen', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Belnr'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Belnr'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Belnr;
+  
+  @EndUserText.label: 'Belzeile'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Belzeile'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Belzeile'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Belzeile;
+  
+  @EndUserText.label: 'Csno'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Csno'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Csno'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Csno;
+  
+  @EndUserText.label: 'Belzart'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Belzart'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Belzart'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Belzart;
+  
+  @EndUserText.label: 'Abslkz'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Abslkz'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Abslkz'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Abslkz;
+  
+  @EndUserText.label: 'Diffkz'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Diffkz'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Diffkz'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Diffkz;
+  
+  @EndUserText.label: 'Buchrel'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Buchrel'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Buchrel'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Buchrel;
+}

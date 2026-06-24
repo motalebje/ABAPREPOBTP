@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZR_EVER'
+@MappingRole: true
+define role ZR_EVER {
+  grant select on ZR_EVER
+  where TRUE;
+}

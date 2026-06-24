@@ -1,0 +1,384 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Addrnumber'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Addrnumber'
+annotate view ZC_ADRC with
+{
+  @EndUserText.label: 'Addrnumber'
+  @UI.facet: [ {
+    label: 'Allgemeine Informationen', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Addrnumber'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Addrnumber'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Addrnumber;
+  
+  @EndUserText.label: 'DateFrom'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'DateFrom'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'DateFrom'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  DateFrom;
+  
+  @EndUserText.label: 'Nation'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Nation'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Nation'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Nation;
+  
+  @EndUserText.label: 'DateTo'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'DateTo'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'DateTo'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  DateTo;
+  
+  @EndUserText.label: 'Name1'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Name1'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Name1'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Name1;
+  
+  @EndUserText.label: 'Name2'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Name2'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Name2'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Name2;
+  
+  @EndUserText.label: 'Name3'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Name3'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Name3'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Name3;
+  
+  @EndUserText.label: 'Name4'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'Name4'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'Name4'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  Name4;
+  
+  @EndUserText.label: 'Street'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'Street'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'Street'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  Street;
+  
+  @EndUserText.label: 'HouseNum1'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'HouseNum1'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'HouseNum1'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  HouseNum1;
+  
+  @EndUserText.label: 'HouseNum2'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'HouseNum2'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'HouseNum2'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  HouseNum2;
+  
+  @EndUserText.label: 'StrSuppl1'
+  @UI.identification: [ {
+    position: 120 , 
+    label: 'StrSuppl1'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: 'StrSuppl1'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  StrSuppl1;
+  
+  @EndUserText.label: 'StrSuppl2'
+  @UI.identification: [ {
+    position: 130 , 
+    label: 'StrSuppl2'
+  } ]
+  @UI.lineItem: [ {
+    position: 130 , 
+    label: 'StrSuppl2'
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  StrSuppl2;
+  
+  @EndUserText.label: 'Location'
+  @UI.identification: [ {
+    position: 140 , 
+    label: 'Location'
+  } ]
+  @UI.lineItem: [ {
+    position: 140 , 
+    label: 'Location'
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  Location;
+  
+  @EndUserText.label: 'PostCode1'
+  @UI.identification: [ {
+    position: 150 , 
+    label: 'PostCode1'
+  } ]
+  @UI.lineItem: [ {
+    position: 150 , 
+    label: 'PostCode1'
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  PostCode1;
+  
+  @EndUserText.label: 'City1'
+  @UI.identification: [ {
+    position: 160 , 
+    label: 'City1'
+  } ]
+  @UI.lineItem: [ {
+    position: 160 , 
+    label: 'City1'
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  City1;
+  
+  @EndUserText.label: 'City2'
+  @UI.identification: [ {
+    position: 170 , 
+    label: 'City2'
+  } ]
+  @UI.lineItem: [ {
+    position: 170 , 
+    label: 'City2'
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  City2;
+  
+  @EndUserText.label: 'Country'
+  @UI.identification: [ {
+    position: 180 , 
+    label: 'Country'
+  } ]
+  @UI.lineItem: [ {
+    position: 180 , 
+    label: 'Country'
+  } ]
+  @UI.selectionField: [ {
+    position: 180 
+  } ]
+  Country;
+  
+  @EndUserText.label: 'Region'
+  @UI.identification: [ {
+    position: 190 , 
+    label: 'Region'
+  } ]
+  @UI.lineItem: [ {
+    position: 190 , 
+    label: 'Region'
+  } ]
+  @UI.selectionField: [ {
+    position: 190 
+  } ]
+  Region;
+  
+  @EndUserText.label: 'Langu'
+  @UI.identification: [ {
+    position: 200 , 
+    label: 'Langu'
+  } ]
+  @UI.lineItem: [ {
+    position: 200 , 
+    label: 'Langu'
+  } ]
+  @UI.selectionField: [ {
+    position: 200 
+  } ]
+  Langu;
+  
+  @EndUserText.label: 'PoBox'
+  @UI.identification: [ {
+    position: 210 , 
+    label: 'PoBox'
+  } ]
+  @UI.lineItem: [ {
+    position: 210 , 
+    label: 'PoBox'
+  } ]
+  @UI.selectionField: [ {
+    position: 210 
+  } ]
+  PoBox;
+  
+  @EndUserText.label: 'PostCode2'
+  @UI.identification: [ {
+    position: 220 , 
+    label: 'PostCode2'
+  } ]
+  @UI.lineItem: [ {
+    position: 220 , 
+    label: 'PostCode2'
+  } ]
+  @UI.selectionField: [ {
+    position: 220 
+  } ]
+  PostCode2;
+  
+  @EndUserText.label: 'Chndatret'
+  @UI.identification: [ {
+    position: 230 , 
+    label: 'Chndatret'
+  } ]
+  @UI.lineItem: [ {
+    position: 230 , 
+    label: 'Chndatret'
+  } ]
+  @UI.selectionField: [ {
+    position: 230 
+  } ]
+  Chndatret;
+  
+  @EndUserText.label: 'Srcsystem'
+  @UI.identification: [ {
+    position: 240 , 
+    label: 'Srcsystem'
+  } ]
+  @UI.lineItem: [ {
+    position: 240 , 
+    label: 'Srcsystem'
+  } ]
+  @UI.selectionField: [ {
+    position: 240 
+  } ]
+  Srcsystem;
+  
+  @UI.identification: [ {
+    position: 250 
+  } ]
+  @UI.lineItem: [ {
+    position: 250 
+  } ]
+  @UI.selectionField: [ {
+    position: 250 
+  } ]
+  Createdby;
+  
+  @UI.identification: [ {
+    position: 260 
+  } ]
+  @UI.lineItem: [ {
+    position: 260 
+  } ]
+  @UI.selectionField: [ {
+    position: 260 
+  } ]
+  Changedby;
+  
+  @UI.identification: [ {
+    position: 270 
+  } ]
+  @UI.lineItem: [ {
+    position: 270 
+  } ]
+  @UI.selectionField: [ {
+    position: 270 
+  } ]
+  Lastchangedat;
+
+}

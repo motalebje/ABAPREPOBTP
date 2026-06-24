@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZR_BUT020'
+@MappingRole: true
+define role ZR_BUT020 {
+  grant select on ZR_BUT020
+  where TRUE;
+}

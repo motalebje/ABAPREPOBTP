@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_ETTIFN'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_ETTIFN'
+  }
+}
+define service ZUI_ETTIFN_O4 provider contracts odata_v4_ui {
+  expose ZC_ETTIFN;
+}

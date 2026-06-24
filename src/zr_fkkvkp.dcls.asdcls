@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZR_FKKVKP'
+@MappingRole: true
+define role ZR_FKKVKP {
+  grant select on ZR_FKKVKP
+  where TRUE;
+}

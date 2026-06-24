@@ -1,0 +1,243 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Partner'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Partner'
+annotate view ZC_BUT020 with
+{
+  @EndUserText.label: 'Partner'
+  @UI.facet: [ {
+    label: 'Allgemeine Informationen', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Partner'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Partner'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Partner;
+  
+  @EndUserText.label: 'Addrnumber'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Addrnumber'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Addrnumber'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Addrnumber;
+  
+  @EndUserText.label: 'Xdfadr'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Xdfadr'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Xdfadr'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Xdfadr;
+  
+  @EndUserText.label: 'Adext'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Adext'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Adext'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Adext;
+  
+  @EndUserText.label: 'Nation'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Nation'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Nation'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Nation;
+  
+  @EndUserText.label: 'Guid'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Guid'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Guid'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Guid;
+  
+  @EndUserText.label: 'AddressGuid'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'AddressGuid'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'AddressGuid'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  AddressGuid;
+  
+  @EndUserText.label: 'MoveAddr'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'MoveAddr'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'MoveAddr'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  MoveAddr;
+  
+  @EndUserText.label: 'AddrMoveDate'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'AddrMoveDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'AddrMoveDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  AddrMoveDate;
+  
+  @EndUserText.label: 'AddrValidFrom'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'AddrValidFrom'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'AddrValidFrom'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  AddrValidFrom;
+  
+  @EndUserText.label: 'AddrValidTo'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'AddrValidTo'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'AddrValidTo'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  AddrValidTo;
+  
+  @EndUserText.label: 'AddrScreening'
+  @UI.identification: [ {
+    position: 120 , 
+    label: 'AddrScreening'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: 'AddrScreening'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  AddrScreening;
+  
+  @EndUserText.label: 'DateFrom'
+  @UI.identification: [ {
+    position: 130 , 
+    label: 'DateFrom'
+  } ]
+  @UI.lineItem: [ {
+    position: 130 , 
+    label: 'DateFrom'
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  DateFrom;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  Createdby;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  Changedby;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  Lastchangedat;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 170 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 170 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  _BaseEntity;
+}

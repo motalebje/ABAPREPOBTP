@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service-Definition für ZC_EABLGR'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_EABLGR'
+  }
+}
+define service ZUI_EABLGR_O4 provider contracts odata_v4_ui {
+  expose ZC_EABLGR;
+}

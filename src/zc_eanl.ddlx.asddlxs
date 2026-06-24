@@ -1,0 +1,229 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Anlage'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Anlage'
+annotate view ZC_EANL with
+{
+  @EndUserText.label: 'Anlage'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Anlage'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Anlage'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Anlage;
+  
+  @EndUserText.label: 'Sparte'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Sparte'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Sparte'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Sparte;
+  
+  @EndUserText.label: 'VAnlage'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'VAnlage'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'VAnlage'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  VAnlage;
+  
+  @EndUserText.label: 'VVertrag'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'VVertrag'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'VVertrag'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  VVertrag;
+  
+  @EndUserText.label: 'Begruend'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Begruend'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Begruend'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Begruend;
+  
+  @EndUserText.label: 'Erdat'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Erdat'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Erdat'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Erdat;
+  
+  @EndUserText.label: 'Ernam'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Ernam'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Ernam'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Ernam;
+  
+  @EndUserText.label: 'Aedat'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'Aedat'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'Aedat'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  Aedat;
+  
+  @EndUserText.label: 'Aenam'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'Aenam'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'Aenam'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  Aenam;
+  
+  @EndUserText.label: 'Bezbr'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'Bezbr'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'Bezbr'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  Bezbr;
+  
+  @EndUserText.label: 'Stext'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'Stext'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'Stext'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  Stext;
+  
+  @EndUserText.label: 'Loevm'
+  @UI.identification: [ {
+    position: 120 , 
+    label: 'Loevm'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: 'Loevm'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  Loevm;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  Createdby;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  Changedby;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  Lastchangedat;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 160 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 160 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  _BaseEntity;
+}

@@ -1,0 +1,12 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_EANL'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_EANL'
+  }
+}
+define service ZUI_EANL_O4
+  provider contracts odata_v4_ui {
+  expose ZC_EANL;
+}

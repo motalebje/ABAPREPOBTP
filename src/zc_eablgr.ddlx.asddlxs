@@ -1,0 +1,201 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Ablblnr'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Ablblnr'
+annotate view ZC_EABLGR with
+{
+  @EndUserText.label: 'Ablblnr'
+  @UI.facet: [ {
+    label: 'Allgemeine Informationen', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Ablblnr'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Ablblnr'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Ablblnr;
+  
+  @EndUserText.label: 'Anlage'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Anlage'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Anlage'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Anlage;
+  
+  @EndUserText.label: 'Ablgr'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Ablgr'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Ablgr'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Ablgr;
+  
+  @EndUserText.label: 'Abrdat'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Abrdat'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Abrdat'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Abrdat;
+  
+  @EndUserText.label: 'Ableinh'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Ableinh'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Ableinh'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Ableinh;
+  
+  @EndUserText.label: 'Adatloll'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Adatloll'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Adatloll'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Adatloll;
+  
+  @EndUserText.label: 'Tdatger'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Tdatger'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Tdatger'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Tdatger;
+  
+  @EndUserText.label: 'Coulgrp'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'Coulgrp'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'Coulgrp'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  Coulgrp;
+  
+  @EndUserText.label: 'VAblgr'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'VAblgr'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'VAblgr'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  VAblgr;
+  
+  @EndUserText.label: 'AbBelgrMsto'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'AbBelgrMsto'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'AbBelgrMsto'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  AbBelgrMsto;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  Createdby;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  Changedby;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  Lastchangedat;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 140 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 140 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  _BaseEntity;
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZR_ETTIF'
+@MappingRole: true
+define role ZR_ETTIF {
+  grant select on ZR_ETTIF
+  where TRUE;
+}

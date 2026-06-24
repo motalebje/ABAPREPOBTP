@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_ETTIF'
+@MappingRole: true
+define role ZC_ETTIF {
+  grant select on ZC_ETTIF
+  where INHERITING CONDITIONS FROM ENTITY ZR_ETTIF REPLACING { ROOT WITH _BaseEntity };
+}

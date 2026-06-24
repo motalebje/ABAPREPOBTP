@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_ERCH'
+@MappingRole: true
+define role ZC_ERCH {
+  grant select on ZC_ERCH
+  where INHERITING CONDITIONS FROM ENTITY ZR_ERCH REPLACING { ROOT WITH _BaseEntity };
+}

@@ -1,0 +1,271 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Vertrag'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Vertrag'
+annotate view ZC_EVER with
+{
+  @EndUserText.label: 'Vertrag'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Vertrag'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Vertrag'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Vertrag;
+  
+  @EndUserText.label: 'Vkonto'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Vkonto'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Vkonto'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Vkonto;
+  
+  @EndUserText.label: 'Anlage'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Anlage'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Anlage'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Anlage;
+  
+  @EndUserText.label: 'Sparte'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Sparte'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Sparte'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Sparte;
+  
+  @EndUserText.label: 'Einzug'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Einzug'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Einzug'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Einzug;
+  
+  @EndUserText.label: 'Auszug'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Auszug'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Auszug'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Auszug;
+  
+  @EndUserText.label: 'Kuenddat'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Kuenddat'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Kuenddat'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Kuenddat;
+  
+  @EndUserText.label: 'Abszy'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'Abszy'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'Abszy'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  Abszy;
+  
+  @EndUserText.label: 'Erdat'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'Erdat'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'Erdat'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  Erdat;
+  
+  @EndUserText.label: 'Ernam'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'Ernam'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'Ernam'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  Ernam;
+  
+  @EndUserText.label: 'Aedat'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'Aedat'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'Aedat'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  Aedat;
+  
+  @EndUserText.label: 'Loevm'
+  @UI.identification: [ {
+    position: 120 , 
+    label: 'Loevm'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: 'Loevm'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  Loevm;
+  
+  @EndUserText.label: 'Beznr'
+  @UI.identification: [ {
+    position: 130 , 
+    label: 'Beznr'
+  } ]
+  @UI.lineItem: [ {
+    position: 130 , 
+    label: 'Beznr'
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  Beznr;
+  
+  @EndUserText.label: 'Kostl'
+  @UI.identification: [ {
+    position: 140 , 
+    label: 'Kostl'
+  } ]
+  @UI.lineItem: [ {
+    position: 140 , 
+    label: 'Kostl'
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  Kostl;
+  
+  @EndUserText.label: 'VEinzdat'
+  @UI.identification: [ {
+    position: 150 , 
+    label: 'VEinzdat'
+  } ]
+  @UI.lineItem: [ {
+    position: 150 , 
+    label: 'VEinzdat'
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  VEinzdat;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  Createdby;
+  
+  @UI.identification: [ {
+    position: 170 
+  } ]
+  @UI.lineItem: [ {
+    position: 170 
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  Changedby;
+  
+  @UI.identification: [ {
+    position: 180 
+  } ]
+  @UI.lineItem: [ {
+    position: 180 
+  } ]
+  @UI.selectionField: [ {
+    position: 180 
+  } ]
+  Lastchangedat;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 190 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 190 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 190 
+  } ]
+  _BaseEntity;
+}

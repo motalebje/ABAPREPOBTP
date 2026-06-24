@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_FKKVKP'
+@MappingRole: true
+define role ZC_FKKVKP {
+  grant select on ZC_FKKVKP
+  where INHERITING CONDITIONS FROM ENTITY ZR_FKKVKP REPLACING { ROOT WITH _BaseEntity };
+}

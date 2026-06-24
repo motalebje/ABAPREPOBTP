@@ -1,0 +1,145 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Belnr'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Belnr'
+annotate view ZC_ERCH with
+{
+  @EndUserText.label: 'Belnr'
+  @UI.facet: [ {
+    label: 'Allgemeine Informationen', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Belnr'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Belnr'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Belnr;
+  
+  @EndUserText.label: 'Bukrs'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Bukrs'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Bukrs'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Bukrs;
+  
+  @EndUserText.label: 'Sparte'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Sparte'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Sparte'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Sparte;
+  
+  @EndUserText.label: 'Gpartner'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Gpartner'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Gpartner'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Gpartner;
+  
+  @EndUserText.label: 'Vkont'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Vkont'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Vkont'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Vkont;
+  
+  @EndUserText.label: 'Vertrag'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Vertrag'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Vertrag'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Vertrag;
+  
+  @EndUserText.label: 'Ableinh'
+  @UI.identification: [ {
+    position: 350 , 
+    label: 'Ableinh'
+  } ]
+  @UI.lineItem: [ {
+    position: 350 , 
+    label: 'Ableinh'
+  } ]
+  @UI.selectionField: [ {
+    position: 350 
+  } ]
+  Ableinh;
+
+  @UI.identification: [ {
+    position: 680 
+  } ]
+  @UI.lineItem: [ {
+    position: 680 
+  } ]
+  @UI.selectionField: [ {
+    position: 680 
+  } ]
+  Createdby;
+  
+  @UI.identification: [ {
+    position: 690 
+  } ]
+  @UI.lineItem: [ {
+    position: 690 
+  } ]
+  @UI.selectionField: [ {
+    position: 690 
+  } ]
+  Changedby;
+  
+  @UI.identification: [ {
+    position: 700 
+  } ]
+  @UI.lineItem: [ {
+    position: 700 
+  } ]
+  @UI.selectionField: [ {
+    position: 700 
+  } ]
+  Lastchangedat;
+}

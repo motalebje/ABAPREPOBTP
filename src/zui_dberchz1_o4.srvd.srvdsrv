@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service-Definition für ZC_DBERCHZ1'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_DBERCHZ1'
+  }
+}
+define service ZUI_DBERCHZ1_O4 provider contracts odata_v4_ui {
+  expose ZC_DBERCHZ1;
+}

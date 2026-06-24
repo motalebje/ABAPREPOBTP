@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service-Definition für ZC_ADRC'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_ADRC'
+  }
+}
+define service ZUI_ADRC_O4 provider contracts odata_v4_ui {
+  expose ZC_ADRC;
+}
